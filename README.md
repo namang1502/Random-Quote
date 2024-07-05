@@ -14,25 +14,4 @@ This project is a web application that allows users to search for quotes by auth
 - Backend: Node.js, Express
 - Database: MongoDB
 
-## Project Structure
-
-├── backend
-│ ├── models
-│ │ └── quoteModel.js
-│ ├── routes
-│ │ └── quoteRoutes.js
-│ ├── server.js
-│ ├── .env
-│ └── package.json
-├── frontend
-│ ├── public
-│ ├── src
-│ │ ├── components
-│ │ │ ├── QuoteOfTheDay.js
-│ │ │ ├── QuoteList.js
-│ │ │ └── SearchQuotes.js
-│ │ ├── App.js
-│ │ ├── index.js
-│ │ └── styles.css
-│ └── package.json
-├── README.md
+ 
