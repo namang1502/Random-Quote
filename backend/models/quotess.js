@@ -1,5 +1,3 @@
-// backend/models/quote.js
-
 const mongoose = require('mongoose');
 
 const quoteSchema = new mongoose.Schema({

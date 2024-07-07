@@ -1,5 +1,3 @@
-// backend/routes/quoteRoutes.js
-
 const express = require('express');
 const router = express.Router();
 const Quote = require('../models/quotess');
@@ -14,7 +12,7 @@ router.get('/', async (req, res) => {
     }
 });
 
-// Get a random quote
+// we will get a random quote
 router.get('/random', async (req, res) => {
     try {
         const count = await Quote.countDocuments();
@@ -26,7 +24,7 @@ router.get('/random', async (req, res) => {
     }
 });
 
-// Get quotes by author
+// quotes by auther
 router.get('/author/:name', async (req, res) => {
     try {
         const quotes = await Quote.find({ author: req.params.name });

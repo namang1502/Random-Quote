@@ -1,8 +1,7 @@
-// frontend/src/App.js
 
 import React from 'react';
 import QuotesList from './components/QuotesList';
-import SearchQuotes from './components/SearchQuotes'; // Make sure this path is correct
+import SearchQuotes from './components/SearchQuotes'; 
 import RandomQuote from './components/RandomQuote';
 
 const App = () => {
@@ -15,5 +14,6 @@ const App = () => {
         </div>
     );
 };
+
 
 export default App;
